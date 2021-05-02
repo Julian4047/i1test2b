@@ -1,0 +1,149 @@
+@font-face {
+    font-family: "bigdeal";
+    src: url(./aBigDeal.ttf);
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body {
+    background: url(./bg_ycle5-01.jpg);
+    background-size: cover;
+}
+
+.container1 {
+    display: grid;
+    justify-content: center;
+}
+
+.banner {
+    background: rgba(126, 255, 100, 0.658);
+    width: 720px;
+    height: 120px;
+    margin: 10px;
+    border-radius: 8px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    font-size: 60px;
+    font-family: "bigdeal";
+    color: black;
+}
+
+.main {
+    background: rgb(0, 0, 0, .2);
+    width: 720px;
+    height: 60px;
+    margin: 10px;
+    border-radius: 8px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav a {
+    color: white;
+    line-height: 50px;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-decoration: none;
+    border-radius: 8px;
+    padding: 5px;
+    background: rgb(0, 0, 0, .2);
+}
+
+.arrow_right {
+    color: black;
+    line-height: 50px;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-decoration: none;
+    border-radius: 8px;
+    padding: 5px;
+    background: yellow;
+}
+
+.arrow {
+    color: black;
+    line-height: 50px;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-decoration: none;
+    border-radius: 8px;
+    padding: 5px;
+    background: yellow;
+}
+
+nav a:hover {
+    color: black;
+    background: yellow;
+    font-size: 16px;
+}
+
+.s1 {
+    background: rgb(0, 0, 0, .2);
+    width: 720px;
+    height: 280px;
+    margin: 10px;
+    border-radius: 8px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#photos {
+    background: rgb(0, 0, 0, .2);
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    border-radius: 8px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    width: 150px;
+    height: auto;
+}
+
+.container2 {
+    display: grid;
+    grid-template-columns: repeat(2, 0fr);
+    justify-content: center;
+}
+
+.s2 {
+    background: rgba(223, 255, 79);
+    width: 500px;
+    height: 580px;
+    margin: 10px;
+    border-radius: 8px;
+}
+
+.s3 {
+    background: rgb(0, 0, 0, .2);
+    width: 200px;
+    height: 580px;
+    margin: 10px;
+    border-radius: 8px;
+}
+
+.container3 {
+    display: grid;
+    justify-content: center;
+}
+
+.s4 {
+    background: rgb(0, 0, 0, .2);
+    width: 720px;
+    height: 60px;
+    margin: 10px;
+    border-radius: 8px;
+}
